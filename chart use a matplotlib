@@ -1,0 +1,7 @@
+import matplotlib.pyplot as plt
+platform = ("python","java","c++","html")
+size = [50,30,20,10]
+
+plt.pie(size,labels=platform,autopct="%1.f%%",counterclock=False,startangle=90)
+
+plt.show()
