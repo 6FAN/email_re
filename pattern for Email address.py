@@ -1,4 +1,4 @@
-# Regular expression pattern for matching email addresses [1:31:57]
+# Regular expression pattern for matching email addresses
 import re
 email_pattern = r"\b[a-zA-Z0-9._+-1]+@[a-zA-Z0-9]+\.[a-z|A-Z]{2,7}\b"
 
@@ -9,7 +9,9 @@ def extract_mail(text):
     
 
 input_t =r"""
-Please contact john.doe@example.com for harfan@fan.in more information.SG+mm@ex33.Com can also reach out to support@mywebsite.co.uk
+     Please contact john.doe@example.com for harfan@fan.in more 
+     information.SG+mm@ex33.Com can also reach out
+     to support@mywebsite.co.uk
      harfan@gmail.com
      pavanGowda91717+.@gmail.com"""
      
